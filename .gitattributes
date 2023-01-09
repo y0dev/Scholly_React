@@ -1,0 +1,31 @@
+
+
+# Set the default behavior, in case people don't have core.autocrlf set.
+* text=auto
+
+
+# Explicitly declare text files you want to always be normalized and converted
+# to native line endings on checkout.
+*.m text
+*.c text
+*.h text
+*.js text
+*.java text
+*.plist text
+*.pbxproj -text
+
+# Source files
+# ============
+
+
+# Binary files
+# ============
+*.png    binary
+*.jpg    binary
+*.db     binary
+
+
+# Note: .db, .p, and .pkl files are associated
+# with the python modules ``pickle``, ``dbm.*``,
+# ``shelve``, ``marshal``, ``anydbm``, & ``bsddb``
+# (among others).
